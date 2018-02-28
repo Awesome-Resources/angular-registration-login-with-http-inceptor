@@ -1,0 +1,51 @@
+{
+  "name": "login-registration",
+  "version": "1.0.0",
+  "author": "Mrugesh Modi",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Awesome-Resources/angular-registration-login-with-http-inceptor.git"
+  },
+  "scripts": {
+    "start": "ng serve",
+    "build": "rimraf dist && ng build --prod"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/router": "^5.0.0",
+    "core-js": "^2.4.1",
+    "moment": "^2.20.1",
+    "mydatepicker": "^2.6.2",
+    "ngx-image-cropper": "^0.1.24",
+    "rxjs": "^5.2.0",
+    "typescript": "^2.6.2",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.5.0",
+    "@angular/compiler-cli": "^5.0.0",
+    "@types/node": "^6.0.60",
+    "angular2-template-loader": "^0.6.0",
+    "awesome-typescript-loader": "^3.0.4",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "2.0.0-beta.5",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.16.1",
+    "jasmine-core": "^2.4.1",
+    "null-loader": "^0.1.1",
+    "raw-loader": "^0.5.1",
+    "rimraf": "^2.5.4",
+    "style-loader": "^0.13.1",
+    "typescript": "^2.2.2",
+    "webpack": "2.2.1",
+    "webpack-dev-server": "2.4.1",
+    "webpack-merge": "^3.0.0"
+  }
+}

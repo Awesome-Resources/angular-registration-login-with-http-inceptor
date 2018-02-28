@@ -1,0 +1,33 @@
+﻿<div class="col-md-12">
+    <app-header></app-header>
+    <h2 [style.marginTop.px]="80" [style.textAlign]="center">Hi {{currentUser.firstName}}!</h2>
+    <p [style.textAlign]="center">You're logged in Home!!</p>
+
+    <div class="col-md-3">
+        <img class="avatar" [style.width.px]="100" [style.marginLeft.px]="-10"
+             src="{{currentUser.thumb ? currentUser.thumb : '/assets/user.png'}}">
+    </div>
+    <div class="col-md-6">
+        <h3 [style.marginTop.px]="-5">User Details:</h3>
+        <ul>
+            <li><span class="lable">First Name</span> : <span class="lable">{{currentUser.firstName}}</span>
+            </li>
+            <li><span class="lable">Last Name</span> : <span class="lable">{{currentUser.lastName}}</span>
+            </li>
+            <li><span class="lable">Surname</span> : <span class="lable">{{currentUser.surname}}</span>
+            </li>
+            <li><span class="lable">Mobile No.</span> : <span class="lable">{{currentUser.mobileNo}}</span>
+            </li>
+            <li><span class="lable">Address Details</span> : <span class="lable">{{currentUser.address}}</span>
+            </li>
+            <li><span class="lable">BirthDate Details</span> : <span
+                    class="lable">{{getTime(currentUser.birthDate)}}</span>
+            </li>
+        </ul>
+    </div>
+    <h3>All User Details:</h3>
+    <li *ngFor="let user of users">
+        {{user.username}}
+        - <a (click)="deleteUser(user.id)">Delete</a>
+    </li>
+</div>

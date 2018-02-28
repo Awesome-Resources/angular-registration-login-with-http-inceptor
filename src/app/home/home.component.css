@@ -1,0 +1,21 @@
+.lable {
+    width:110px;
+    max-width: 115px;
+    color: black;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.hi{
+    margin-top: 80px;
+    text-align: center;
+}
+
+.avatar {
+    width: 5em;
+    height: 5em;
+    border-radius: 5em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
